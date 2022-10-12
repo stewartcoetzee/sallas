@@ -1,0 +1,56 @@
+#ayaaz {
+    width: 100%;
+    margin-left: -3%;
+}
+
+.flex {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+span {
+    display: block;
+}
+
+h1 {
+    font-size: 10em;
+    -webkit-text-fill-color: #FDFFFC;
+}
+
+h1>span:first-child{
+    margin-left: -30%;
+    margin-top: -20%;
+}
+
+h1>span:last-child {
+    margin-top: -10%;
+    margin-left: 20%;
+}
+
+.flex>div:last-child {
+    color: #FDFFFC;
+    font-family: "PoiretOne";
+    font-size: 1.5rem;
+    margin-top: 30%;
+    margin-left: 13%;
+    margin-right: 18%;
+}
+
+.labels {
+    height: 100%;
+    color: #FDFFFC;
+    font-family: "PoiretOne";
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.labels>div:last-child {
+    margin-bottom: 10em;
+}
+
+.labels>div {
+    border-bottom: 5px solid #FDFFFC;
+    margin-right: -10em;
+}

@@ -1,0 +1,19 @@
+@font-face {
+	font-family: "YesevaOne";
+	src: url(./fonts/Yeseva_One/YesevaOne-Regular.ttf);
+}
+
+@font-face {
+	font-family: "PoiretOne";
+	src: url(./fonts/Poiret_One/PoiretOne-Regular.ttf);
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #0D1B2A;
+}
+
+#header {
+	padding: 2em 0;
+}
